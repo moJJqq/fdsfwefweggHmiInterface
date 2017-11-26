@@ -1,0 +1,129 @@
+c:\users\vdelf\documents\visual studio 2015\Projects\HMIInterface1\HMIInterface1\bin\Debug\HMIInterface1.exe.config
+c:\users\vdelf\documents\visual studio 2015\Projects\HMIInterface1\HMIInterface1\bin\Debug\HMIInterface1.exe
+c:\users\vdelf\documents\visual studio 2015\Projects\HMIInterface1\HMIInterface1\bin\Debug\HMIInterface1.pdb
+c:\users\vdelf\documents\visual studio 2015\Projects\HMIInterface1\HMIInterface1\bin\Debug\DevExpress.Data.v16.2.dll
+c:\users\vdelf\documents\visual studio 2015\Projects\HMIInterface1\HMIInterface1\bin\Debug\DevExpress.Printing.v16.2.Core.dll
+c:\users\vdelf\documents\visual studio 2015\Projects\HMIInterface1\HMIInterface1\bin\Debug\DevExpress.Sparkline.v16.2.Core.dll
+c:\users\vdelf\documents\visual studio 2015\Projects\HMIInterface1\HMIInterface1\bin\Debug\DevExpress.Utils.v16.2.dll
+c:\users\vdelf\documents\visual studio 2015\Projects\HMIInterface1\HMIInterface1\bin\Debug\DevExpress.XtraEditors.v16.2.dll
+c:\users\vdelf\documents\visual studio 2015\Projects\HMIInterface1\HMIInterface1\bin\Debug\DevExpress.Pdf.v16.2.Core.dll
+c:\users\vdelf\documents\visual studio 2015\Projects\HMIInterface1\HMIInterface1\bin\Debug\DevExpress.Data.v16.2.xml
+c:\users\vdelf\documents\visual studio 2015\Projects\HMIInterface1\HMIInterface1\bin\Debug\DevExpress.Printing.v16.2.Core.xml
+c:\users\vdelf\documents\visual studio 2015\Projects\HMIInterface1\HMIInterface1\bin\Debug\DevExpress.Sparkline.v16.2.Core.xml
+c:\users\vdelf\documents\visual studio 2015\Projects\HMIInterface1\HMIInterface1\bin\Debug\DevExpress.Utils.v16.2.xml
+c:\users\vdelf\documents\visual studio 2015\Projects\HMIInterface1\HMIInterface1\bin\Debug\DevExpress.XtraEditors.v16.2.xml
+c:\users\vdelf\documents\visual studio 2015\Projects\HMIInterface1\HMIInterface1\bin\Debug\DevExpress.Pdf.v16.2.Core.xml
+c:\users\vdelf\documents\visual studio 2015\Projects\HMIInterface1\HMIInterface1\bin\Debug\de\DevExpress.Data.v16.2.resources.dll
+c:\users\vdelf\documents\visual studio 2015\Projects\HMIInterface1\HMIInterface1\bin\Debug\es\DevExpress.Data.v16.2.resources.dll
+c:\users\vdelf\documents\visual studio 2015\Projects\HMIInterface1\HMIInterface1\bin\Debug\ja\DevExpress.Data.v16.2.resources.dll
+c:\users\vdelf\documents\visual studio 2015\Projects\HMIInterface1\HMIInterface1\bin\Debug\ru\DevExpress.Data.v16.2.resources.dll
+c:\users\vdelf\documents\visual studio 2015\Projects\HMIInterface1\HMIInterface1\bin\Debug\de\DevExpress.Printing.v16.2.Core.resources.dll
+c:\users\vdelf\documents\visual studio 2015\Projects\HMIInterface1\HMIInterface1\bin\Debug\es\DevExpress.Printing.v16.2.Core.resources.dll
+c:\users\vdelf\documents\visual studio 2015\Projects\HMIInterface1\HMIInterface1\bin\Debug\ja\DevExpress.Printing.v16.2.Core.resources.dll
+c:\users\vdelf\documents\visual studio 2015\Projects\HMIInterface1\HMIInterface1\bin\Debug\ru\DevExpress.Printing.v16.2.Core.resources.dll
+c:\users\vdelf\documents\visual studio 2015\Projects\HMIInterface1\HMIInterface1\bin\Debug\de\DevExpress.Sparkline.v16.2.Core.resources.dll
+c:\users\vdelf\documents\visual studio 2015\Projects\HMIInterface1\HMIInterface1\bin\Debug\es\DevExpress.Sparkline.v16.2.Core.resources.dll
+c:\users\vdelf\documents\visual studio 2015\Projects\HMIInterface1\HMIInterface1\bin\Debug\ja\DevExpress.Sparkline.v16.2.Core.resources.dll
+c:\users\vdelf\documents\visual studio 2015\Projects\HMIInterface1\HMIInterface1\bin\Debug\ru\DevExpress.Sparkline.v16.2.Core.resources.dll
+c:\users\vdelf\documents\visual studio 2015\Projects\HMIInterface1\HMIInterface1\bin\Debug\de\DevExpress.Utils.v16.2.resources.dll
+c:\users\vdelf\documents\visual studio 2015\Projects\HMIInterface1\HMIInterface1\bin\Debug\es\DevExpress.Utils.v16.2.resources.dll
+c:\users\vdelf\documents\visual studio 2015\Projects\HMIInterface1\HMIInterface1\bin\Debug\ja\DevExpress.Utils.v16.2.resources.dll
+c:\users\vdelf\documents\visual studio 2015\Projects\HMIInterface1\HMIInterface1\bin\Debug\ru\DevExpress.Utils.v16.2.resources.dll
+c:\users\vdelf\documents\visual studio 2015\Projects\HMIInterface1\HMIInterface1\bin\Debug\de\DevExpress.XtraEditors.v16.2.resources.dll
+c:\users\vdelf\documents\visual studio 2015\Projects\HMIInterface1\HMIInterface1\bin\Debug\es\DevExpress.XtraEditors.v16.2.resources.dll
+c:\users\vdelf\documents\visual studio 2015\Projects\HMIInterface1\HMIInterface1\bin\Debug\ja\DevExpress.XtraEditors.v16.2.resources.dll
+c:\users\vdelf\documents\visual studio 2015\Projects\HMIInterface1\HMIInterface1\bin\Debug\ru\DevExpress.XtraEditors.v16.2.resources.dll
+c:\users\vdelf\documents\visual studio 2015\Projects\HMIInterface1\HMIInterface1\bin\Debug\de\DevExpress.Pdf.v16.2.Core.resources.dll
+c:\users\vdelf\documents\visual studio 2015\Projects\HMIInterface1\HMIInterface1\bin\Debug\es\DevExpress.Pdf.v16.2.Core.resources.dll
+c:\users\vdelf\documents\visual studio 2015\Projects\HMIInterface1\HMIInterface1\bin\Debug\ja\DevExpress.Pdf.v16.2.Core.resources.dll
+c:\users\vdelf\documents\visual studio 2015\Projects\HMIInterface1\HMIInterface1\bin\Debug\ru\DevExpress.Pdf.v16.2.Core.resources.dll
+c:\users\vdelf\documents\visual studio 2015\Projects\HMIInterface1\HMIInterface1\obj\Debug\HMIInterface1.csprojResolveAssemblyReference.cache
+c:\users\vdelf\documents\visual studio 2015\Projects\HMIInterface1\HMIInterface1\obj\Debug\HMIInterface1.Form1.resources
+c:\users\vdelf\documents\visual studio 2015\Projects\HMIInterface1\HMIInterface1\obj\Debug\HMIInterface1.Properties.Resources.resources
+c:\users\vdelf\documents\visual studio 2015\Projects\HMIInterface1\HMIInterface1\obj\Debug\HMIInterface1.csproj.GenerateResource.Cache
+c:\users\vdelf\documents\visual studio 2015\Projects\HMIInterface1\HMIInterface1\obj\Debug\HMIInterface1.exe.licenses
+c:\users\vdelf\documents\visual studio 2015\Projects\HMIInterface1\HMIInterface1\obj\Debug\HMIInterface1.exe
+c:\users\vdelf\documents\visual studio 2015\Projects\HMIInterface1\HMIInterface1\obj\Debug\HMIInterface1.pdb
+C:\Users\Administrator\Desktop\HMIInterface1\HMIInterface1\bin\Debug\HMIInterface1.exe.config
+C:\Users\Administrator\Desktop\HMIInterface1\HMIInterface1\obj\Debug\HMIInterface1.exe
+C:\Users\Administrator\Desktop\HMIInterface1\HMIInterface1\obj\Debug\HMIInterface1.pdb
+C:\Users\Administrator\Desktop\HMIInterface1\HMIInterface1\obj\Debug\HMIInterface1.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\HMIInterface1\HMIInterface1\obj\Debug\HMIInterface1.Properties.Resources.resources
+C:\Users\Administrator\Desktop\HMIInterface1\HMIInterface1\obj\Debug\HMIInterface1.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\HMIInterface1\HMIInterface1\obj\Debug\HMIInterface1.exe.licenses
+C:\Users\Administrator\Desktop\HMIInterface1\HMIInterface1\bin\Debug\LocalDBTowzin.mdf
+C:\Users\Administrator\Desktop\HMIInterface1\HMIInterface1\bin\Debug\LocalDBTowzin_log.ldf
+C:\Users\Administrator\Desktop\HMIInterface1\HMIInterface1\bin\Debug\HMIInterface1.exe
+C:\Users\Administrator\Desktop\HMIInterface1\HMIInterface1\bin\Debug\HMIInterface1.pdb
+C:\Users\Administrator\Desktop\HMIInterface1\HMIInterface1\bin\Debug\DevExpress.Pdf.v16.2.Core.dll
+C:\Users\Administrator\Desktop\HMIInterface1\HMIInterface1\bin\Debug\DevExpress.Data.v16.2.xml
+C:\Users\Administrator\Desktop\HMIInterface1\HMIInterface1\bin\Debug\DevExpress.Printing.v16.2.Core.xml
+C:\Users\Administrator\Desktop\HMIInterface1\HMIInterface1\bin\Debug\DevExpress.Sparkline.v16.2.Core.xml
+C:\Users\Administrator\Desktop\HMIInterface1\HMIInterface1\bin\Debug\DevExpress.Utils.v16.2.xml
+C:\Users\Administrator\Desktop\HMIInterface1\HMIInterface1\bin\Debug\DevExpress.XtraEditors.v16.2.xml
+C:\Users\Administrator\Desktop\HMIInterface1\HMIInterface1\bin\Debug\DevExpress.Pdf.v16.2.Core.xml
+C:\Users\Administrator\Desktop\HMIInterface1\HMIInterface1\bin\Debug\de\DevExpress.Data.v16.2.resources.dll
+C:\Users\Administrator\Desktop\HMIInterface1\HMIInterface1\bin\Debug\es\DevExpress.Data.v16.2.resources.dll
+C:\Users\Administrator\Desktop\HMIInterface1\HMIInterface1\bin\Debug\ja\DevExpress.Data.v16.2.resources.dll
+C:\Users\Administrator\Desktop\HMIInterface1\HMIInterface1\bin\Debug\ru\DevExpress.Data.v16.2.resources.dll
+C:\Users\Administrator\Desktop\HMIInterface1\HMIInterface1\bin\Debug\de\DevExpress.Printing.v16.2.Core.resources.dll
+C:\Users\Administrator\Desktop\HMIInterface1\HMIInterface1\bin\Debug\es\DevExpress.Printing.v16.2.Core.resources.dll
+C:\Users\Administrator\Desktop\HMIInterface1\HMIInterface1\bin\Debug\ja\DevExpress.Printing.v16.2.Core.resources.dll
+C:\Users\Administrator\Desktop\HMIInterface1\HMIInterface1\bin\Debug\ru\DevExpress.Printing.v16.2.Core.resources.dll
+C:\Users\Administrator\Desktop\HMIInterface1\HMIInterface1\bin\Debug\de\DevExpress.Sparkline.v16.2.Core.resources.dll
+C:\Users\Administrator\Desktop\HMIInterface1\HMIInterface1\bin\Debug\es\DevExpress.Sparkline.v16.2.Core.resources.dll
+C:\Users\Administrator\Desktop\HMIInterface1\HMIInterface1\bin\Debug\ja\DevExpress.Sparkline.v16.2.Core.resources.dll
+C:\Users\Administrator\Desktop\HMIInterface1\HMIInterface1\bin\Debug\ru\DevExpress.Sparkline.v16.2.Core.resources.dll
+C:\Users\Administrator\Desktop\HMIInterface1\HMIInterface1\bin\Debug\de\DevExpress.Utils.v16.2.resources.dll
+C:\Users\Administrator\Desktop\HMIInterface1\HMIInterface1\bin\Debug\es\DevExpress.Utils.v16.2.resources.dll
+C:\Users\Administrator\Desktop\HMIInterface1\HMIInterface1\bin\Debug\ja\DevExpress.Utils.v16.2.resources.dll
+C:\Users\Administrator\Desktop\HMIInterface1\HMIInterface1\bin\Debug\ru\DevExpress.Utils.v16.2.resources.dll
+C:\Users\Administrator\Desktop\HMIInterface1\HMIInterface1\bin\Debug\de\DevExpress.XtraEditors.v16.2.resources.dll
+C:\Users\Administrator\Desktop\HMIInterface1\HMIInterface1\bin\Debug\es\DevExpress.XtraEditors.v16.2.resources.dll
+C:\Users\Administrator\Desktop\HMIInterface1\HMIInterface1\bin\Debug\ja\DevExpress.XtraEditors.v16.2.resources.dll
+C:\Users\Administrator\Desktop\HMIInterface1\HMIInterface1\bin\Debug\ru\DevExpress.XtraEditors.v16.2.resources.dll
+C:\Users\Administrator\Desktop\HMIInterface1\HMIInterface1\bin\Debug\de\DevExpress.Pdf.v16.2.Core.resources.dll
+C:\Users\Administrator\Desktop\HMIInterface1\HMIInterface1\bin\Debug\es\DevExpress.Pdf.v16.2.Core.resources.dll
+C:\Users\Administrator\Desktop\HMIInterface1\HMIInterface1\bin\Debug\ja\DevExpress.Pdf.v16.2.Core.resources.dll
+C:\Users\Administrator\Desktop\HMIInterface1\HMIInterface1\bin\Debug\ru\DevExpress.Pdf.v16.2.Core.resources.dll
+C:\Users\Administrator\Desktop\HMIInterface1\HMIInterface1\obj\Debug\HMIInterface1.Home.resources
+C:\Users\Administrator\Desktop\HMIInterface1\HMIInterface1\obj\Debug\HMIInterface1.FormSendList.resources
+C:\Users\Administrator\Desktop\HMIInterface1\HMIInterface1\obj\Debug\HMIInterface1.FormHome.resources
+C:\Users\Administrator\Desktop\HMIInterface1\HMIInterface1\obj\Debug\HMIInterface1.FormSendProduct.resources
+C:\Users\Administrator\Desktop\HMIInterface1\HMIInterface1\obj\Debug\HMIInterface1.FormWaste.resources
+C:\Users\Administrator\Desktop\HMIInterface1\HMIInterface1\obj\Debug\HMIInterface1.FormReturned.resources
+C:\Users\Administrator\Desktop\HMIInterface1\HMIInterface1\obj\Debug\RdlCompile.cache
+C:\Users\Administrator\Desktop\HMIInterface1\HMIInterface1\obj\Debug\RdlCompile.compiled
+C:\Users\Administrator\Desktop\HMIInterface1\HMIInterface1\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Administrator\Desktop\HMIInterface1\HMIInterface1\obj\Debug\HMIInterface1.FormGetMaterials.resources
+C:\Users\Administrator\Desktop\HMIInterface1\HMIInterface1\bin\Debug\HMIInterface1.exe.manifest
+C:\Users\Administrator\Desktop\HMIInterface1\HMIInterface1\bin\Debug\HMIInterface1.application
+C:\Users\Administrator\Desktop\HMIInterface1\HMIInterface1\obj\Debug\HMIInterface1.exe.manifest
+C:\Users\Administrator\Desktop\HMIInterface1\HMIInterface1\obj\Debug\HMIInterface1.application
+C:\Users\Administrator\Desktop\HMIInterface1\HMIInterface1\obj\Debug\HMIInterface1.FormSetting.resources
+C:\Towzin V2\HMIInterface GitHub\HMIInterface1\bin\Debug\LocalDBTowzin.mdf
+C:\Towzin V2\HMIInterface GitHub\HMIInterface1\bin\Debug\LocalDBTowzin_log.ldf
+C:\Towzin V2\HMIInterface GitHub\HMIInterface1\bin\Debug\HMIInterface1.exe.config
+C:\Towzin V2\HMIInterface GitHub\HMIInterface1\bin\Debug\HMIInterface1.exe.manifest
+C:\Towzin V2\HMIInterface GitHub\HMIInterface1\bin\Debug\HMIInterface1.application
+C:\Towzin V2\HMIInterface GitHub\HMIInterface1\bin\Debug\HMIInterface1.exe
+C:\Towzin V2\HMIInterface GitHub\HMIInterface1\bin\Debug\HMIInterface1.pdb
+C:\Towzin V2\HMIInterface GitHub\HMIInterface1\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Towzin V2\HMIInterface GitHub\HMIInterface1\obj\Debug\HMIInterface1.Home.resources
+C:\Towzin V2\HMIInterface GitHub\HMIInterface1\obj\Debug\HMIInterface1.FormGetMaterials.resources
+C:\Towzin V2\HMIInterface GitHub\HMIInterface1\obj\Debug\HMIInterface1.FormHome.resources
+C:\Towzin V2\HMIInterface GitHub\HMIInterface1\obj\Debug\HMIInterface1.FormReturned.resources
+C:\Towzin V2\HMIInterface GitHub\HMIInterface1\obj\Debug\HMIInterface1.FormSendList.resources
+C:\Towzin V2\HMIInterface GitHub\HMIInterface1\obj\Debug\HMIInterface1.FormSendProduct.resources
+C:\Towzin V2\HMIInterface GitHub\HMIInterface1\obj\Debug\HMIInterface1.FormSetting.resources
+C:\Towzin V2\HMIInterface GitHub\HMIInterface1\obj\Debug\HMIInterface1.FormWaste.resources
+C:\Towzin V2\HMIInterface GitHub\HMIInterface1\obj\Debug\HMIInterface1.Properties.Resources.resources
+C:\Towzin V2\HMIInterface GitHub\HMIInterface1\obj\Debug\HMIInterface1.csproj.GenerateResource.Cache
+C:\Towzin V2\HMIInterface GitHub\HMIInterface1\obj\Debug\HMIInterface1.exe.licenses
+C:\Towzin V2\HMIInterface GitHub\HMIInterface1\obj\Debug\RdlCompile.cache
+C:\Towzin V2\HMIInterface GitHub\HMIInterface1\obj\Debug\RdlCompile.compiled
+C:\Towzin V2\HMIInterface GitHub\HMIInterface1\obj\Debug\HMIInterface1.exe.manifest
+C:\Towzin V2\HMIInterface GitHub\HMIInterface1\obj\Debug\HMIInterface1.application
+C:\Towzin V2\HMIInterface GitHub\HMIInterface1\obj\Debug\HMIInterface1.exe
+C:\Towzin V2\HMIInterface GitHub\HMIInterface1\obj\Debug\HMIInterface1.pdb
+C:\Towzin V2\HMIInterface GitHub\HMIInterface1\obj\Debug\HMIInterface1.csprojResolveAssemblyReference.cache
