@@ -35,7 +35,7 @@ namespace HMIInterface1
 
         private void buttonSave_Click(object sender, EventArgs e)
         {
-            SqlConnection connection = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Administrator\Desktop\HMIInterface1\HMIInterface1\LocalDBTowzin.mdf;Integrated Security=True");
+            SqlConnection connection = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\LocalDBTowzin.mdf;Integrated Security=True");
             SqlCommand command;
             
             int Result;
