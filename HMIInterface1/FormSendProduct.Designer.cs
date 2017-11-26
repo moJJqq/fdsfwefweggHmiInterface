@@ -67,7 +67,7 @@
             // 
             this.label3.BackColor = System.Drawing.Color.Black;
             this.label3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label3.Location = new System.Drawing.Point(-8, 58);
+            this.label3.Location = new System.Drawing.Point(-8, 119);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(1286, 10);
             this.label3.TabIndex = 44;
@@ -76,10 +76,10 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("B Nazanin", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.label1.Location = new System.Drawing.Point(598, 20);
+            this.label1.Font = new System.Drawing.Font("B Nazanin", 28F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.label1.Location = new System.Drawing.Point(598, 35);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(119, 38);
+            this.label1.Size = new System.Drawing.Size(188, 60);
             this.label1.TabIndex = 45;
             this.label1.Text = "ثبت محصول";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -87,7 +87,7 @@
             // textBoxOrderNumber
             // 
             this.textBoxOrderNumber.Font = new System.Drawing.Font("B Nazanin", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.textBoxOrderNumber.Location = new System.Drawing.Point(903, 135);
+            this.textBoxOrderNumber.Location = new System.Drawing.Point(903, 183);
             this.textBoxOrderNumber.Name = "textBoxOrderNumber";
             this.textBoxOrderNumber.ReadOnly = true;
             this.textBoxOrderNumber.Size = new System.Drawing.Size(163, 48);
@@ -97,7 +97,7 @@
             // textBoxProduct
             // 
             this.textBoxProduct.Font = new System.Drawing.Font("B Nazanin", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.textBoxProduct.Location = new System.Drawing.Point(903, 221);
+            this.textBoxProduct.Location = new System.Drawing.Point(903, 269);
             this.textBoxProduct.Name = "textBoxProduct";
             this.textBoxProduct.ReadOnly = true;
             this.textBoxProduct.Size = new System.Drawing.Size(163, 48);
@@ -107,7 +107,7 @@
             // textBoxFormula
             // 
             this.textBoxFormula.Font = new System.Drawing.Font("B Nazanin", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.textBoxFormula.Location = new System.Drawing.Point(903, 275);
+            this.textBoxFormula.Location = new System.Drawing.Point(903, 323);
             this.textBoxFormula.Name = "textBoxFormula";
             this.textBoxFormula.ReadOnly = true;
             this.textBoxFormula.Size = new System.Drawing.Size(163, 48);
@@ -117,7 +117,7 @@
             // textBoxProductName
             // 
             this.textBoxProductName.Font = new System.Drawing.Font("B Nazanin", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.textBoxProductName.Location = new System.Drawing.Point(339, 135);
+            this.textBoxProductName.Location = new System.Drawing.Point(311, 183);
             this.textBoxProductName.Name = "textBoxProductName";
             this.textBoxProductName.ReadOnly = true;
             this.textBoxProductName.Size = new System.Drawing.Size(556, 48);
@@ -129,7 +129,7 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("B Nazanin", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.label2.Location = new System.Drawing.Point(920, 92);
+            this.label2.Location = new System.Drawing.Point(920, 140);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(119, 40);
             this.label2.TabIndex = 50;
@@ -140,10 +140,10 @@
             // 
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Transparent;
-            this.label5.Font = new System.Drawing.Font("B Nazanin", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.label5.Location = new System.Drawing.Point(597, 92);
+            this.label5.Font = new System.Drawing.Font("B Nazanin", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.label5.Location = new System.Drawing.Point(569, 140);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(74, 40);
+            this.label5.Size = new System.Drawing.Size(89, 47);
             this.label5.TabIndex = 52;
             this.label5.Text = "نام کالا";
             this.label5.Click += new System.EventHandler(this.label5_Click);
@@ -153,7 +153,7 @@
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("B Nazanin", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.label6.Location = new System.Drawing.Point(1070, 278);
+            this.label6.Location = new System.Drawing.Point(1070, 326);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(68, 40);
             this.label6.TabIndex = 53;
@@ -163,9 +163,9 @@
             // 
             this.pictureBoxShowNext.BackColor = System.Drawing.Color.Transparent;
             this.pictureBoxShowNext.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxShowNext.Image")));
-            this.pictureBoxShowNext.Location = new System.Drawing.Point(909, 559);
+            this.pictureBoxShowNext.Location = new System.Drawing.Point(855, 559);
             this.pictureBoxShowNext.Name = "pictureBoxShowNext";
-            this.pictureBoxShowNext.Size = new System.Drawing.Size(157, 142);
+            this.pictureBoxShowNext.Size = new System.Drawing.Size(211, 142);
             this.pictureBoxShowNext.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxShowNext.TabIndex = 63;
             this.pictureBoxShowNext.TabStop = false;
@@ -177,7 +177,7 @@
             this.panelOrderDestination.Controls.Add(this.label7);
             this.panelOrderDestination.Controls.Add(this.textBoxOrderDestinationEdit);
             this.panelOrderDestination.Controls.Add(this.textBoxOrderDestinationView);
-            this.panelOrderDestination.Location = new System.Drawing.Point(505, 216);
+            this.panelOrderDestination.Location = new System.Drawing.Point(505, 264);
             this.panelOrderDestination.Name = "panelOrderDestination";
             this.panelOrderDestination.Size = new System.Drawing.Size(345, 237);
             this.panelOrderDestination.TabIndex = 64;
@@ -242,7 +242,7 @@
             this.panelContainer.Controls.Add(this.textBoxContainerView);
             this.panelContainer.Controls.Add(this.label13);
             this.panelContainer.Controls.Add(this.listBoxContainer);
-            this.panelContainer.Location = new System.Drawing.Point(191, 216);
+            this.panelContainer.Location = new System.Drawing.Point(191, 264);
             this.panelContainer.Name = "panelContainer";
             this.panelContainer.Size = new System.Drawing.Size(308, 237);
             this.panelContainer.TabIndex = 65;
@@ -325,7 +325,7 @@
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("B Nazanin", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.label4.Location = new System.Drawing.Point(1070, 336);
+            this.label4.Location = new System.Drawing.Point(1070, 384);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(50, 40);
             this.label4.TabIndex = 67;
@@ -334,7 +334,7 @@
             // textBoxWeight
             // 
             this.textBoxWeight.Font = new System.Drawing.Font("B Nazanin", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.textBoxWeight.Location = new System.Drawing.Point(904, 333);
+            this.textBoxWeight.Location = new System.Drawing.Point(904, 381);
             this.textBoxWeight.Name = "textBoxWeight";
             this.textBoxWeight.ReadOnly = true;
             this.textBoxWeight.Size = new System.Drawing.Size(161, 48);
@@ -346,7 +346,7 @@
             this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.Color.Transparent;
             this.label9.Font = new System.Drawing.Font("B Nazanin", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.label9.Location = new System.Drawing.Point(1070, 394);
+            this.label9.Location = new System.Drawing.Point(1070, 442);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(59, 40);
             this.label9.TabIndex = 69;
@@ -355,7 +355,7 @@
             // textBoxNumberOFBatch
             // 
             this.textBoxNumberOFBatch.Font = new System.Drawing.Font("B Nazanin", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.textBoxNumberOFBatch.Location = new System.Drawing.Point(904, 391);
+            this.textBoxNumberOFBatch.Location = new System.Drawing.Point(904, 439);
             this.textBoxNumberOFBatch.Name = "textBoxNumberOFBatch";
             this.textBoxNumberOFBatch.ReadOnly = true;
             this.textBoxNumberOFBatch.Size = new System.Drawing.Size(160, 48);
@@ -367,7 +367,7 @@
             this.label12.AutoSize = true;
             this.label12.BackColor = System.Drawing.Color.Transparent;
             this.label12.Font = new System.Drawing.Font("B Nazanin", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.label12.Location = new System.Drawing.Point(1070, 228);
+            this.label12.Location = new System.Drawing.Point(1070, 276);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(76, 40);
             this.label12.TabIndex = 70;
@@ -376,10 +376,10 @@
             // buttonBack
             // 
             this.buttonBack.BackColor = System.Drawing.Color.Yellow;
-            this.buttonBack.Font = new System.Drawing.Font("B Nazanin", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.buttonBack.Location = new System.Drawing.Point(16, 12);
+            this.buttonBack.Font = new System.Drawing.Font("B Nazanin", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.buttonBack.Location = new System.Drawing.Point(12, 35);
             this.buttonBack.Name = "buttonBack";
-            this.buttonBack.Size = new System.Drawing.Size(75, 32);
+            this.buttonBack.Size = new System.Drawing.Size(152, 66);
             this.buttonBack.TabIndex = 71;
             this.buttonBack.Text = "برگشت";
             this.buttonBack.UseVisualStyleBackColor = false;
@@ -389,7 +389,7 @@
             // 
             this.label10.BackColor = System.Drawing.Color.Black;
             this.label10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label10.Location = new System.Drawing.Point(253, 191);
+            this.label10.Location = new System.Drawing.Point(253, 239);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(852, 10);
             this.label10.TabIndex = 72;
@@ -398,6 +398,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.MintCream;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1280, 740);
             this.Controls.Add(this.label10);

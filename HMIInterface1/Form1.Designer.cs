@@ -56,12 +56,12 @@
             // 
             // buttonExit
             // 
-            this.buttonExit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.buttonExit.BackColor = System.Drawing.Color.Teal;
             this.buttonExit.Font = new System.Drawing.Font("B Titr", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.buttonExit.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.buttonExit.Location = new System.Drawing.Point(648, 190);
+            this.buttonExit.Location = new System.Drawing.Point(31, 45);
             this.buttonExit.Name = "buttonExit";
-            this.buttonExit.Size = new System.Drawing.Size(92, 48);
+            this.buttonExit.Size = new System.Drawing.Size(157, 66);
             this.buttonExit.TabIndex = 4;
             this.buttonExit.Text = "خروج";
             this.buttonExit.UseVisualStyleBackColor = false;
@@ -72,9 +72,9 @@
             this.buttonLogin.BackColor = System.Drawing.Color.LightSkyBlue;
             this.buttonLogin.Font = new System.Drawing.Font("B Titr", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.buttonLogin.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.buttonLogin.Location = new System.Drawing.Point(497, 190);
+            this.buttonLogin.Location = new System.Drawing.Point(545, 228);
             this.buttonLogin.Name = "buttonLogin";
-            this.buttonLogin.Size = new System.Drawing.Size(150, 48);
+            this.buttonLogin.Size = new System.Drawing.Size(150, 66);
             this.buttonLogin.TabIndex = 0;
             this.buttonLogin.Text = "ورود";
             this.buttonLogin.UseVisualStyleBackColor = false;
@@ -86,7 +86,7 @@
             this.textBoxUserName.Location = new System.Drawing.Point(497, 82);
             this.textBoxUserName.Multiline = true;
             this.textBoxUserName.Name = "textBoxUserName";
-            this.textBoxUserName.Size = new System.Drawing.Size(242, 50);
+            this.textBoxUserName.Size = new System.Drawing.Size(242, 65);
             this.textBoxUserName.TabIndex = 1;
             this.textBoxUserName.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.textBoxUserName.TextChanged += new System.EventHandler(this.textBoxUserName_TextChanged);
@@ -98,7 +98,7 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("B Nazanin", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(745, 141);
+            this.label2.Location = new System.Drawing.Point(745, 161);
             this.label2.Name = "label2";
             this.label2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.label2.Size = new System.Drawing.Size(122, 43);
@@ -108,11 +108,11 @@
             // textBoxPassword
             // 
             this.textBoxPassword.Font = new System.Drawing.Font("B Nazanin", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.textBoxPassword.Location = new System.Drawing.Point(497, 138);
+            this.textBoxPassword.Location = new System.Drawing.Point(497, 153);
             this.textBoxPassword.Multiline = true;
             this.textBoxPassword.Name = "textBoxPassword";
             this.textBoxPassword.PasswordChar = '*';
-            this.textBoxPassword.Size = new System.Drawing.Size(242, 46);
+            this.textBoxPassword.Size = new System.Drawing.Size(242, 65);
             this.textBoxPassword.TabIndex = 2;
             this.textBoxPassword.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -123,7 +123,7 @@
             this.label1.CausesValidation = false;
             this.label1.Font = new System.Drawing.Font("B Nazanin", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(745, 89);
+            this.label1.Location = new System.Drawing.Point(745, 96);
             this.label1.Name = "label1";
             this.label1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.label1.Size = new System.Drawing.Size(125, 43);
