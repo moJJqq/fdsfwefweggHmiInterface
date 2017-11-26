@@ -153,3 +153,4 @@ C:\Towzin V2\fdsfwefweggHmiInterface\HMIInterface1\obj\Debug\RdlCompile.cache
 C:\Towzin V2\fdsfwefweggHmiInterface\HMIInterface1\obj\Debug\RdlCompile.compiled
 C:\Towzin V2\fdsfwefweggHmiInterface\HMIInterface1\obj\Debug\HMIInterface1.exe.manifest
 C:\Towzin V2\fdsfwefweggHmiInterface\HMIInterface1\obj\Debug\HMIInterface1.application
+C:\Towzin V2\fdsfwefweggHmiInterface\HMIInterface1\obj\Debug\HMIInterface1.FormStoppages.resources

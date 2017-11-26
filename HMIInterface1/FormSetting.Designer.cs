@@ -69,7 +69,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("B Nazanin", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.label1.ForeColor = System.Drawing.Color.Transparent;
+            this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label1.Location = new System.Drawing.Point(854, 184);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(32, 24);
@@ -81,7 +81,7 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("B Nazanin", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.label2.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label2.Location = new System.Drawing.Point(854, 234);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(56, 26);
@@ -93,7 +93,7 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("B Nazanin", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label3.Location = new System.Drawing.Point(855, 281);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(98, 26);
@@ -105,7 +105,7 @@
             this.checkBoxShowDestinationOrderCode.AutoSize = true;
             this.checkBoxShowDestinationOrderCode.BackColor = System.Drawing.Color.Transparent;
             this.checkBoxShowDestinationOrderCode.Font = new System.Drawing.Font("B Nazanin", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.checkBoxShowDestinationOrderCode.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.checkBoxShowDestinationOrderCode.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.checkBoxShowDestinationOrderCode.Location = new System.Drawing.Point(425, 230);
             this.checkBoxShowDestinationOrderCode.Name = "checkBoxShowDestinationOrderCode";
             this.checkBoxShowDestinationOrderCode.Size = new System.Drawing.Size(202, 33);
@@ -118,7 +118,7 @@
             this.checkBoxShowContainer.AutoSize = true;
             this.checkBoxShowContainer.BackColor = System.Drawing.Color.Transparent;
             this.checkBoxShowContainer.Font = new System.Drawing.Font("B Nazanin", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.checkBoxShowContainer.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.checkBoxShowContainer.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.checkBoxShowContainer.Location = new System.Drawing.Point(425, 175);
             this.checkBoxShowContainer.Name = "checkBoxShowContainer";
             this.checkBoxShowContainer.Size = new System.Drawing.Size(108, 33);
@@ -132,7 +132,7 @@
             this.buttonSave.Font = new System.Drawing.Font("B Nazanin", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.buttonSave.Location = new System.Drawing.Point(858, 427);
             this.buttonSave.Name = "buttonSave";
-            this.buttonSave.Size = new System.Drawing.Size(100, 44);
+            this.buttonSave.Size = new System.Drawing.Size(131, 67);
             this.buttonSave.TabIndex = 10;
             this.buttonSave.Text = "ذخیره";
             this.buttonSave.UseVisualStyleBackColor = false;
@@ -144,7 +144,7 @@
             this.button1.Font = new System.Drawing.Font("B Nazanin", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.button1.Location = new System.Drawing.Point(298, 427);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(99, 44);
+            this.button1.Size = new System.Drawing.Size(137, 67);
             this.button1.TabIndex = 11;
             this.button1.Text = "برگشت";
             this.button1.UseVisualStyleBackColor = false;
@@ -154,7 +154,6 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::HMIInterface1.Properties.Resources.stay_positive_2560x1440_quotes_hd_3707;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1280, 740);
             this.Controls.Add(this.button1);

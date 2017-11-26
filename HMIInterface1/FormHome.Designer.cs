@@ -141,9 +141,10 @@
             // 
             this.pictureBoxNext.BackColor = System.Drawing.Color.Transparent;
             this.pictureBoxNext.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBoxNext.BackgroundImage")));
-            this.pictureBoxNext.Location = new System.Drawing.Point(320, 550);
+            this.pictureBoxNext.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBoxNext.Location = new System.Drawing.Point(365, 550);
             this.pictureBoxNext.Name = "pictureBoxNext";
-            this.pictureBoxNext.Size = new System.Drawing.Size(524, 74);
+            this.pictureBoxNext.Size = new System.Drawing.Size(591, 157);
             this.pictureBoxNext.TabIndex = 0;
             this.pictureBoxNext.TabStop = false;
             this.pictureBoxNext.Visible = false;
@@ -441,9 +442,9 @@
             // 
             this.pictureBoxShowNext.BackColor = System.Drawing.Color.Transparent;
             this.pictureBoxShowNext.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxShowNext.Image")));
-            this.pictureBoxShowNext.Location = new System.Drawing.Point(1068, 550);
+            this.pictureBoxShowNext.Location = new System.Drawing.Point(938, 550);
             this.pictureBoxShowNext.Name = "pictureBoxShowNext";
-            this.pictureBoxShowNext.Size = new System.Drawing.Size(82, 86);
+            this.pictureBoxShowNext.Size = new System.Drawing.Size(212, 157);
             this.pictureBoxShowNext.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxShowNext.TabIndex = 42;
             this.pictureBoxShowNext.TabStop = false;
@@ -489,7 +490,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::HMIInterface1.Properties.Resources._1e9bb8554f534067f2e52bb2b9eaea3b_d63kxbvwedfgn1;
+
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1280, 740);
             this.Controls.Add(this.label10);

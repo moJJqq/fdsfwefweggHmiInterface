@@ -19,17 +19,17 @@ namespace HMIInterface1
 
         private void FormSendList_Load(object sender, EventArgs e)
         {
+            // TODO: This line of code loads data into the 'towzinDataSet2.VW_ProductiveDetails_Index' table. You can move, or remove it, as needed.
+            
+            
+            this.vW_ProductiveDetails_IndexTableAdapter1.Fill(this.towzinDataSet2.VW_ProductiveDetails_Index);
+            
             Size size = new Size(Screen.PrimaryScreen.WorkingArea.Size.Width, Screen.PrimaryScreen.WorkingArea.Size.Height);
             this.Height = size.Height;
             this.Width = size.Width;
             Point p = new Point(0, 0);
             this.Location = p;
-            // TODO: This line of code loads data into the 'towzinDataSet.ProductiveDetails' table. You can move, or remove it, as needed.
-            this.productiveDetailsTableAdapter1.Fill(this.towzinDataSet.ProductiveDetails);
-            // TODO: This line of code loads data into the 'localDBTowzinDataSet.ProductiveDetails' table. You can move, or remove it, as needed.
-            this.productiveDetailsTableAdapter.Fill(this.localDBTowzinDataSet.ProductiveDetails);
-            // TODO: This line of code loads data into the 'localDBTowzinDataSet.ProductiveDetails' table. You can move, or remove it, as needed.
-            this.productiveDetailsTableAdapter.Fill(this.localDBTowzinDataSet.ProductiveDetails);
+
 
         }
 
@@ -41,6 +41,11 @@ namespace HMIInterface1
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
+        }
+
+        private void buttonBack_Click(object sender, EventArgs e)
+        {
+            this.Hide();
         }
     }
 }

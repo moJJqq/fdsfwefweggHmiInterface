@@ -45,12 +45,12 @@
             this.textBoxOrderDestinationEdit = new System.Windows.Forms.TextBox();
             this.textBoxOrderDestinationView = new System.Windows.Forms.TextBox();
             this.panelContainer = new System.Windows.Forms.Panel();
-            this.listBoxContainer = new System.Windows.Forms.ListBox();
             this.textBoxWeightContainer = new System.Windows.Forms.TextBox();
             this.textBoxContainerEdit = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.textBoxContainerView = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
+            this.listBoxContainer = new System.Windows.Forms.ListBox();
             this.label4 = new System.Windows.Forms.Label();
             this.textBoxWeight = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
@@ -163,9 +163,9 @@
             // 
             this.pictureBoxShowNext.BackColor = System.Drawing.Color.Transparent;
             this.pictureBoxShowNext.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxShowNext.Image")));
-            this.pictureBoxShowNext.Location = new System.Drawing.Point(1055, 494);
+            this.pictureBoxShowNext.Location = new System.Drawing.Point(909, 559);
             this.pictureBoxShowNext.Name = "pictureBoxShowNext";
-            this.pictureBoxShowNext.Size = new System.Drawing.Size(74, 90);
+            this.pictureBoxShowNext.Size = new System.Drawing.Size(157, 142);
             this.pictureBoxShowNext.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxShowNext.TabIndex = 63;
             this.pictureBoxShowNext.TabStop = false;
@@ -247,19 +247,6 @@
             this.panelContainer.Size = new System.Drawing.Size(308, 237);
             this.panelContainer.TabIndex = 65;
             // 
-            // listBoxContainer
-            // 
-            this.listBoxContainer.Font = new System.Drawing.Font("B Nazanin", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.listBoxContainer.FormattingEnabled = true;
-            this.listBoxContainer.ItemHeight = 40;
-            this.listBoxContainer.Location = new System.Drawing.Point(19, 99);
-            this.listBoxContainer.Name = "listBoxContainer";
-            this.listBoxContainer.Size = new System.Drawing.Size(274, 124);
-            this.listBoxContainer.TabIndex = 60;
-            this.listBoxContainer.Visible = false;
-            this.listBoxContainer.Click += new System.EventHandler(this.listBoxContainer_Click);
-            this.listBoxContainer.SelectedIndexChanged += new System.EventHandler(this.listBoxCart_SelectedIndexChanged);
-            // 
             // textBoxWeightContainer
             // 
             this.textBoxWeightContainer.Font = new System.Drawing.Font("B Nazanin", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
@@ -319,6 +306,19 @@
             this.label13.Size = new System.Drawing.Size(93, 40);
             this.label13.TabIndex = 66;
             this.label13.Text = "وزن پالت";
+            // 
+            // listBoxContainer
+            // 
+            this.listBoxContainer.Font = new System.Drawing.Font("B Nazanin", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.listBoxContainer.FormattingEnabled = true;
+            this.listBoxContainer.ItemHeight = 40;
+            this.listBoxContainer.Location = new System.Drawing.Point(19, 99);
+            this.listBoxContainer.Name = "listBoxContainer";
+            this.listBoxContainer.Size = new System.Drawing.Size(274, 124);
+            this.listBoxContainer.TabIndex = 60;
+            this.listBoxContainer.Visible = false;
+            this.listBoxContainer.Click += new System.EventHandler(this.listBoxContainer_Click);
+            this.listBoxContainer.SelectedIndexChanged += new System.EventHandler(this.listBoxCart_SelectedIndexChanged);
             // 
             // label4
             // 
@@ -398,7 +398,6 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::HMIInterface1.Properties.Resources._1e9bb8554f534067f2e52bb2b9eaea3b_d63kxbvwedfgn;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1280, 740);
             this.Controls.Add(this.label10);

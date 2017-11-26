@@ -144,7 +144,12 @@ namespace HMIInterface1
         private void checkBoxManual_CheckedChanged(object sender, EventArgs e)
         {
 
-            panelManual.Enabled = checkBoxManual.Checked;
+            textBoxFromOrder.ReadOnly = !checkBoxManual.Checked;
+            textBoxPartCodeEdit.ReadOnly = !checkBoxManual.Checked;
+            textBoxPartCodeView.ReadOnly = !checkBoxManual.Checked;
+            textBoxPartName.ReadOnly = !checkBoxManual.Checked;
+            textBoxWeight.ReadOnly = !checkBoxManual.Checked;
+            textBoxAmount1.ReadOnly = !checkBoxManual.Checked;
 
         }
 
@@ -348,6 +353,10 @@ namespace HMIInterface1
             }
         }
 
+        private void textBoxPartName_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 
 }

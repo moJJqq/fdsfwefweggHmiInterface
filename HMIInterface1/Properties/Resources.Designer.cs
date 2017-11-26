@@ -63,56 +63,6 @@ namespace HMIInterface1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _1e9bb8554f534067f2e52bb2b9eaea3b_d63kxbv {
-            get {
-                object obj = ResourceManager.GetObject("1e9bb8554f534067f2e52bb2b9eaea3b-d63kxbv", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap _1e9bb8554f534067f2e52bb2b9eaea3b_d63kxbv1 {
-            get {
-                object obj = ResourceManager.GetObject("1e9bb8554f534067f2e52bb2b9eaea3b-d63kxbv1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap _1e9bb8554f534067f2e52bb2b9eaea3b_d63kxbvwedfgn {
-            get {
-                object obj = ResourceManager.GetObject("1e9bb8554f534067f2e52bb2b9eaea3b-d63kxbvwedfgn", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap _1e9bb8554f534067f2e52bb2b9eaea3b_d63kxbvwedfgn1 {
-            get {
-                object obj = ResourceManager.GetObject("1e9bb8554f534067f2e52bb2b9eaea3b-d63kxbvwedfgn1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap _84059_settings_button {
-            get {
-                object obj = ResourceManager.GetObject("84059-settings-button", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap blurry_background__with_textured_clouds_wallpaper__by_vactual_d9vwd5u {
             get {
                 object obj = ResourceManager.GetObject("blurry_background__with_textured_clouds_wallpaper__by_vactual-d9vwd5u", resourceCulture);
@@ -126,16 +76,6 @@ namespace HMIInterface1.Properties {
         internal static System.Drawing.Bitmap blurry_background_pictures_18 {
             get {
                 object obj = ResourceManager.GetObject("blurry-background-pictures-18", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap blurry_background_pictures_18nnnn {
-            get {
-                object obj = ResourceManager.GetObject("blurry-background-pictures-18nnnn", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -186,6 +126,16 @@ namespace HMIInterface1.Properties {
         internal static System.Drawing.Bitmap IMG_172799 {
             get {
                 object obj = ResourceManager.GetObject("IMG_172799", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap IMG_172826e {
+            get {
+                object obj = ResourceManager.GetObject("IMG_172826e", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -336,6 +286,16 @@ namespace HMIInterface1.Properties {
         internal static System.Drawing.Bitmap oie_transparent__4_ {
             get {
                 object obj = ResourceManager.GetObject("oie_transparent (4)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ProductiveStoppages_2_ {
+            get {
+                object obj = ResourceManager.GetObject("ProductiveStoppages(2)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

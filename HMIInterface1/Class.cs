@@ -7,6 +7,17 @@ using System.Threading.Tasks;
 
 namespace HMIInterface1
 {
+    public class ClassStoppages
+    {
+        public static long OrderCode;
+        public static int PartID;
+        public static string PartCode;
+        public static string PartName;
+        public static int StoppagesID;
+        public static DateTime dateTimeStoppages;
+        
+
+    }
     public class ClassWaste
     {
         public static long OrderCode;

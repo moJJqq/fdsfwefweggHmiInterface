@@ -32,34 +32,36 @@
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.iDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.orderCodeIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.productionLineIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.partIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.operatorIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.iODataGridViewCheckBoxColumn = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.fromOrderCodeIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.fromPartIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.toOrderCodeIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.toPartIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.batchNumberDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.AddDateShamsi = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Times = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.PartCode = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Name = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.formoulaNumberDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.wasteDataGridViewCheckBoxColumn = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.lesionIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.amountDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.amount1DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.productiveRowDetailsDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.iPDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.IOo = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.fromOrderCodeIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.toOrderCodeIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.vWProductiveDetailsIndexBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.towzinDataSet2 = new HMIInterface1.TowzinDataSet2();
             this.productiveDetailsBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.towzinDataSet = new HMIInterface1.TowzinDataSet();
             this.productiveDetailsBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.localDBTowzinDataSet = new HMIInterface1.LocalDBTowzinDataSet();
-            this.productiveDetailsTableAdapter = new HMIInterface1.LocalDBTowzinDataSetTableAdapters.ProductiveDetailsTableAdapter();
-            this.productiveDetailsTableAdapter1 = new HMIInterface1.TowzinDataSetTableAdapters.ProductiveDetailsTableAdapter();
             this.buttonBack = new System.Windows.Forms.Button();
+            this.towzinDataSet1 = new HMIInterface1.TowzinDataSet1();
+            this.vWProductiveDetailsIndexBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.vW_ProductiveDetails_IndexTableAdapter = new HMIInterface1.TowzinDataSet1TableAdapters.VW_ProductiveDetails_IndexTableAdapter();
+            this.vW_ProductiveDetails_IndexTableAdapter1 = new HMIInterface1.TowzinDataSet2TableAdapters.VW_ProductiveDetails_IndexTableAdapter();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.vWProductiveDetailsIndexBindingSource1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.towzinDataSet2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.productiveDetailsBindingSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.towzinDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.productiveDetailsBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.localDBTowzinDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.towzinDataSet1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.vWProductiveDetailsIndexBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // dataGridView1
@@ -72,35 +74,30 @@
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.iDDataGridViewTextBoxColumn,
             this.orderCodeIDDataGridViewTextBoxColumn,
-            this.productionLineIDDataGridViewTextBoxColumn,
-            this.partIDDataGridViewTextBoxColumn,
-            this.operatorIDDataGridViewTextBoxColumn,
-            this.iODataGridViewCheckBoxColumn,
-            this.fromOrderCodeIDDataGridViewTextBoxColumn,
-            this.fromPartIDDataGridViewTextBoxColumn,
-            this.toOrderCodeIDDataGridViewTextBoxColumn,
-            this.toPartIDDataGridViewTextBoxColumn,
-            this.batchNumberDataGridViewTextBoxColumn,
+            this.AddDateShamsi,
+            this.Times,
+            this.PartCode,
+            this.Name,
             this.formoulaNumberDataGridViewTextBoxColumn,
-            this.wasteDataGridViewCheckBoxColumn,
-            this.lesionIDDataGridViewTextBoxColumn,
             this.amountDataGridViewTextBoxColumn,
             this.amount1DataGridViewTextBoxColumn,
-            this.productiveRowDetailsDataGridViewTextBoxColumn,
-            this.iPDataGridViewTextBoxColumn});
-            this.dataGridView1.DataSource = this.productiveDetailsBindingSource1;
-            this.dataGridView1.Location = new System.Drawing.Point(0, 0);
+            this.IOo,
+            this.fromOrderCodeIDDataGridViewTextBoxColumn,
+            this.toOrderCodeIDDataGridViewTextBoxColumn});
+            this.dataGridView1.DataSource = this.vWProductiveDetailsIndexBindingSource1;
+            this.dataGridView1.Location = new System.Drawing.Point(-3, 4);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.dataGridView1.Size = new System.Drawing.Size(1280, 740);
+            this.dataGridView1.Size = new System.Drawing.Size(1232, 642);
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // iDDataGridViewTextBoxColumn
             // 
             this.iDDataGridViewTextBoxColumn.DataPropertyName = "ID";
-            this.iDDataGridViewTextBoxColumn.HeaderText = "ID";
+            this.iDDataGridViewTextBoxColumn.FillWeight = 50F;
+            this.iDDataGridViewTextBoxColumn.HeaderText = "ردیف";
             this.iDDataGridViewTextBoxColumn.Name = "iDDataGridViewTextBoxColumn";
             this.iDDataGridViewTextBoxColumn.ReadOnly = true;
             this.iDDataGridViewTextBoxColumn.Width = 50;
@@ -108,121 +105,89 @@
             // orderCodeIDDataGridViewTextBoxColumn
             // 
             this.orderCodeIDDataGridViewTextBoxColumn.DataPropertyName = "OrderCodeID";
-            this.orderCodeIDDataGridViewTextBoxColumn.HeaderText = "OrderCodeID";
+            this.orderCodeIDDataGridViewTextBoxColumn.HeaderText = "شماره سفارش";
             this.orderCodeIDDataGridViewTextBoxColumn.Name = "orderCodeIDDataGridViewTextBoxColumn";
             this.orderCodeIDDataGridViewTextBoxColumn.ReadOnly = true;
             // 
-            // productionLineIDDataGridViewTextBoxColumn
+            // AddDateShamsi
             // 
-            this.productionLineIDDataGridViewTextBoxColumn.DataPropertyName = "ProductionLineID";
-            this.productionLineIDDataGridViewTextBoxColumn.HeaderText = "ProductionLineID";
-            this.productionLineIDDataGridViewTextBoxColumn.Name = "productionLineIDDataGridViewTextBoxColumn";
-            this.productionLineIDDataGridViewTextBoxColumn.ReadOnly = true;
+            this.AddDateShamsi.DataPropertyName = "AddDateShamsi";
+            this.AddDateShamsi.HeaderText = "تاریخ";
+            this.AddDateShamsi.Name = "AddDateShamsi";
+            this.AddDateShamsi.ReadOnly = true;
             // 
-            // partIDDataGridViewTextBoxColumn
+            // Times
             // 
-            this.partIDDataGridViewTextBoxColumn.DataPropertyName = "PartID";
-            this.partIDDataGridViewTextBoxColumn.HeaderText = "PartID";
-            this.partIDDataGridViewTextBoxColumn.Name = "partIDDataGridViewTextBoxColumn";
-            this.partIDDataGridViewTextBoxColumn.ReadOnly = true;
+            this.Times.DataPropertyName = "Times";
+            this.Times.HeaderText = "ساعت";
+            this.Times.Name = "Times";
+            this.Times.ReadOnly = true;
             // 
-            // operatorIDDataGridViewTextBoxColumn
+            // PartCode
             // 
-            this.operatorIDDataGridViewTextBoxColumn.DataPropertyName = "OperatorID";
-            this.operatorIDDataGridViewTextBoxColumn.HeaderText = "OperatorID";
-            this.operatorIDDataGridViewTextBoxColumn.Name = "operatorIDDataGridViewTextBoxColumn";
-            this.operatorIDDataGridViewTextBoxColumn.ReadOnly = true;
+            this.PartCode.DataPropertyName = "PartCode";
+            this.PartCode.HeaderText = "کد کالا";
+            this.PartCode.Name = "PartCode";
+            this.PartCode.ReadOnly = true;
             // 
-            // iODataGridViewCheckBoxColumn
+            // Name
             // 
-            this.iODataGridViewCheckBoxColumn.DataPropertyName = "IO";
-            this.iODataGridViewCheckBoxColumn.HeaderText = "IO";
-            this.iODataGridViewCheckBoxColumn.Name = "iODataGridViewCheckBoxColumn";
-            this.iODataGridViewCheckBoxColumn.ReadOnly = true;
-            // 
-            // fromOrderCodeIDDataGridViewTextBoxColumn
-            // 
-            this.fromOrderCodeIDDataGridViewTextBoxColumn.DataPropertyName = "FromOrderCodeID";
-            this.fromOrderCodeIDDataGridViewTextBoxColumn.HeaderText = "FromOrderCodeID";
-            this.fromOrderCodeIDDataGridViewTextBoxColumn.Name = "fromOrderCodeIDDataGridViewTextBoxColumn";
-            this.fromOrderCodeIDDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // fromPartIDDataGridViewTextBoxColumn
-            // 
-            this.fromPartIDDataGridViewTextBoxColumn.DataPropertyName = "FromPartID";
-            this.fromPartIDDataGridViewTextBoxColumn.HeaderText = "FromPartID";
-            this.fromPartIDDataGridViewTextBoxColumn.Name = "fromPartIDDataGridViewTextBoxColumn";
-            this.fromPartIDDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // toOrderCodeIDDataGridViewTextBoxColumn
-            // 
-            this.toOrderCodeIDDataGridViewTextBoxColumn.DataPropertyName = "ToOrderCodeID";
-            this.toOrderCodeIDDataGridViewTextBoxColumn.HeaderText = "ToOrderCodeID";
-            this.toOrderCodeIDDataGridViewTextBoxColumn.Name = "toOrderCodeIDDataGridViewTextBoxColumn";
-            this.toOrderCodeIDDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // toPartIDDataGridViewTextBoxColumn
-            // 
-            this.toPartIDDataGridViewTextBoxColumn.DataPropertyName = "ToPartID";
-            this.toPartIDDataGridViewTextBoxColumn.HeaderText = "ToPartID";
-            this.toPartIDDataGridViewTextBoxColumn.Name = "toPartIDDataGridViewTextBoxColumn";
-            this.toPartIDDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // batchNumberDataGridViewTextBoxColumn
-            // 
-            this.batchNumberDataGridViewTextBoxColumn.DataPropertyName = "BatchNumber";
-            this.batchNumberDataGridViewTextBoxColumn.HeaderText = "BatchNumber";
-            this.batchNumberDataGridViewTextBoxColumn.Name = "batchNumberDataGridViewTextBoxColumn";
-            this.batchNumberDataGridViewTextBoxColumn.ReadOnly = true;
+            this.Name.DataPropertyName = "Name";
+            this.Name.HeaderText = "نام کالا";
+            this.Name.Name = "Name";
+            this.Name.ReadOnly = true;
             // 
             // formoulaNumberDataGridViewTextBoxColumn
             // 
             this.formoulaNumberDataGridViewTextBoxColumn.DataPropertyName = "FormoulaNumber";
-            this.formoulaNumberDataGridViewTextBoxColumn.HeaderText = "FormoulaNumber";
+            this.formoulaNumberDataGridViewTextBoxColumn.HeaderText = "فرمول";
             this.formoulaNumberDataGridViewTextBoxColumn.Name = "formoulaNumberDataGridViewTextBoxColumn";
             this.formoulaNumberDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // wasteDataGridViewCheckBoxColumn
-            // 
-            this.wasteDataGridViewCheckBoxColumn.DataPropertyName = "Waste";
-            this.wasteDataGridViewCheckBoxColumn.HeaderText = "Waste";
-            this.wasteDataGridViewCheckBoxColumn.Name = "wasteDataGridViewCheckBoxColumn";
-            this.wasteDataGridViewCheckBoxColumn.ReadOnly = true;
-            // 
-            // lesionIDDataGridViewTextBoxColumn
-            // 
-            this.lesionIDDataGridViewTextBoxColumn.DataPropertyName = "LesionID";
-            this.lesionIDDataGridViewTextBoxColumn.HeaderText = "LesionID";
-            this.lesionIDDataGridViewTextBoxColumn.Name = "lesionIDDataGridViewTextBoxColumn";
-            this.lesionIDDataGridViewTextBoxColumn.ReadOnly = true;
             // 
             // amountDataGridViewTextBoxColumn
             // 
             this.amountDataGridViewTextBoxColumn.DataPropertyName = "Amount";
-            this.amountDataGridViewTextBoxColumn.HeaderText = "Amount";
+            this.amountDataGridViewTextBoxColumn.HeaderText = "کیلوگرم";
             this.amountDataGridViewTextBoxColumn.Name = "amountDataGridViewTextBoxColumn";
             this.amountDataGridViewTextBoxColumn.ReadOnly = true;
             // 
             // amount1DataGridViewTextBoxColumn
             // 
             this.amount1DataGridViewTextBoxColumn.DataPropertyName = "Amount1";
-            this.amount1DataGridViewTextBoxColumn.HeaderText = "Amount1";
+            this.amount1DataGridViewTextBoxColumn.HeaderText = "تعداد";
             this.amount1DataGridViewTextBoxColumn.Name = "amount1DataGridViewTextBoxColumn";
             this.amount1DataGridViewTextBoxColumn.ReadOnly = true;
             // 
-            // productiveRowDetailsDataGridViewTextBoxColumn
+            // IOo
             // 
-            this.productiveRowDetailsDataGridViewTextBoxColumn.DataPropertyName = "ProductiveRowDetails";
-            this.productiveRowDetailsDataGridViewTextBoxColumn.HeaderText = "ProductiveRowDetails";
-            this.productiveRowDetailsDataGridViewTextBoxColumn.Name = "productiveRowDetailsDataGridViewTextBoxColumn";
-            this.productiveRowDetailsDataGridViewTextBoxColumn.ReadOnly = true;
+            this.IOo.DataPropertyName = "IOo";
+            this.IOo.HeaderText = "ورودی/خروجی";
+            this.IOo.Name = "IOo";
+            this.IOo.ReadOnly = true;
             // 
-            // iPDataGridViewTextBoxColumn
+            // fromOrderCodeIDDataGridViewTextBoxColumn
             // 
-            this.iPDataGridViewTextBoxColumn.DataPropertyName = "IP";
-            this.iPDataGridViewTextBoxColumn.HeaderText = "IP";
-            this.iPDataGridViewTextBoxColumn.Name = "iPDataGridViewTextBoxColumn";
-            this.iPDataGridViewTextBoxColumn.ReadOnly = true;
+            this.fromOrderCodeIDDataGridViewTextBoxColumn.DataPropertyName = "FromOrderCodeID";
+            this.fromOrderCodeIDDataGridViewTextBoxColumn.HeaderText = "از شماره سفارش";
+            this.fromOrderCodeIDDataGridViewTextBoxColumn.Name = "fromOrderCodeIDDataGridViewTextBoxColumn";
+            this.fromOrderCodeIDDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // toOrderCodeIDDataGridViewTextBoxColumn
+            // 
+            this.toOrderCodeIDDataGridViewTextBoxColumn.DataPropertyName = "ToOrderCodeID";
+            this.toOrderCodeIDDataGridViewTextBoxColumn.HeaderText = "به شماره سفارش";
+            this.toOrderCodeIDDataGridViewTextBoxColumn.Name = "toOrderCodeIDDataGridViewTextBoxColumn";
+            this.toOrderCodeIDDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // vWProductiveDetailsIndexBindingSource1
+            // 
+            this.vWProductiveDetailsIndexBindingSource1.DataMember = "VW_ProductiveDetails_Index";
+            this.vWProductiveDetailsIndexBindingSource1.DataSource = this.towzinDataSet2;
+            // 
+            // towzinDataSet2
+            // 
+            this.towzinDataSet2.DataSetName = "TowzinDataSet2";
+            this.towzinDataSet2.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // productiveDetailsBindingSource1
             // 
@@ -244,43 +209,58 @@
             this.localDBTowzinDataSet.DataSetName = "LocalDBTowzinDataSet";
             this.localDBTowzinDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
-            // productiveDetailsTableAdapter
-            // 
-            this.productiveDetailsTableAdapter.ClearBeforeFill = true;
-            // 
-            // productiveDetailsTableAdapter1
-            // 
-            this.productiveDetailsTableAdapter1.ClearBeforeFill = true;
-            // 
             // buttonBack
             // 
             this.buttonBack.BackColor = System.Drawing.Color.Yellow;
             this.buttonBack.Font = new System.Drawing.Font("B Nazanin", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.buttonBack.Location = new System.Drawing.Point(49, 654);
+            this.buttonBack.Location = new System.Drawing.Point(35, 654);
             this.buttonBack.Name = "buttonBack";
-            this.buttonBack.Size = new System.Drawing.Size(75, 33);
+            this.buttonBack.Size = new System.Drawing.Size(89, 53);
             this.buttonBack.TabIndex = 72;
             this.buttonBack.Text = "برگشت";
             this.buttonBack.UseVisualStyleBackColor = false;
+            this.buttonBack.Click += new System.EventHandler(this.buttonBack_Click);
+            // 
+            // towzinDataSet1
+            // 
+            this.towzinDataSet1.DataSetName = "TowzinDataSet1";
+            this.towzinDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // vWProductiveDetailsIndexBindingSource
+            // 
+            this.vWProductiveDetailsIndexBindingSource.DataMember = "VW_ProductiveDetails_Index";
+            this.vWProductiveDetailsIndexBindingSource.DataSource = this.towzinDataSet1;
+            // 
+            // vW_ProductiveDetails_IndexTableAdapter
+            // 
+            this.vW_ProductiveDetails_IndexTableAdapter.ClearBeforeFill = true;
+            // 
+            // vW_ProductiveDetails_IndexTableAdapter1
+            // 
+            this.vW_ProductiveDetails_IndexTableAdapter1.ClearBeforeFill = true;
             // 
             // FormSendList
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1024, 745);
+            this.ClientSize = new System.Drawing.Size(1229, 745);
             this.ControlBox = false;
             this.Controls.Add(this.buttonBack);
             this.Controls.Add(this.dataGridView1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "FormSendList";
+           
             this.Load += new System.EventHandler(this.FormSendList_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.vWProductiveDetailsIndexBindingSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.towzinDataSet2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.productiveDetailsBindingSource1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.towzinDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.productiveDetailsBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.localDBTowzinDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.towzinDataSet1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.vWProductiveDetailsIndexBindingSource)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -290,28 +270,26 @@
         private System.Windows.Forms.DataGridView dataGridView1;
         private LocalDBTowzinDataSet localDBTowzinDataSet;
         private System.Windows.Forms.BindingSource productiveDetailsBindingSource;
-        private LocalDBTowzinDataSetTableAdapters.ProductiveDetailsTableAdapter productiveDetailsTableAdapter;
-        private System.Windows.Forms.DataGridViewTextBoxColumn iDDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn orderCodeIDDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn productionLineIDDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn partIDDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn operatorIDDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewCheckBoxColumn iODataGridViewCheckBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn fromOrderCodeIDDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn fromPartIDDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn toOrderCodeIDDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn toPartIDDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn batchNumberDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn formoulaNumberDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewCheckBoxColumn wasteDataGridViewCheckBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn lesionIDDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn amountDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn amount1DataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn productiveRowDetailsDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn iPDataGridViewTextBoxColumn;
         private TowzinDataSet towzinDataSet;
         private System.Windows.Forms.BindingSource productiveDetailsBindingSource1;
-        private TowzinDataSetTableAdapters.ProductiveDetailsTableAdapter productiveDetailsTableAdapter1;
         private System.Windows.Forms.Button buttonBack;
+        private TowzinDataSet1 towzinDataSet1;
+        private System.Windows.Forms.BindingSource vWProductiveDetailsIndexBindingSource;
+        private TowzinDataSet1TableAdapters.VW_ProductiveDetails_IndexTableAdapter vW_ProductiveDetails_IndexTableAdapter;
+        private TowzinDataSet2 towzinDataSet2;
+        private System.Windows.Forms.BindingSource vWProductiveDetailsIndexBindingSource1;
+        private TowzinDataSet2TableAdapters.VW_ProductiveDetails_IndexTableAdapter vW_ProductiveDetails_IndexTableAdapter1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn iDDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn orderCodeIDDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn AddDateShamsi;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Times;
+        private System.Windows.Forms.DataGridViewTextBoxColumn PartCode;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Name;
+        private System.Windows.Forms.DataGridViewTextBoxColumn formoulaNumberDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn amountDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn amount1DataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewCheckBoxColumn IOo;
+        private System.Windows.Forms.DataGridViewTextBoxColumn fromOrderCodeIDDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn toOrderCodeIDDataGridViewTextBoxColumn;
     }
 }

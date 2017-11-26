@@ -121,17 +121,14 @@
   <data name="motivational-wallpapers1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\motivational-wallpapers1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="1e9bb8554f534067f2e52bb2b9eaea3b-d63kxbv" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\1e9bb8554f534067f2e52bb2b9eaea3b-d63kxbv.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="IMG_514014" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_514014.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Your-future1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Your-future1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="stay-positive-2560x1440-quotes-hd-37072" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\stay-positive-2560x1440-quotes-hd-37072.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="IMG_514014" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\IMG_514014.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="oie_transparent (4)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\oie_transparent (4).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -160,12 +157,6 @@
   <data name="Desktop-quote-wallpapers-HD" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Desktop-quote-wallpapers-HD.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="1e9bb8554f534067f2e52bb2b9eaea3b-d63kxbvwedfgn" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\1e9bb8554f534067f2e52bb2b9eaea3b-d63kxbvwedfgn.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="84059-settings-button" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\84059-settings-button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Untitled" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Untitled.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -181,9 +172,6 @@
   <data name="motivational-wallpapers21" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\motivational-wallpapers21.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="blurry-background-pictures-18nnnn" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\blurry-background-pictures-18nnnn.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="settings-4-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\settings-4-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -192,6 +180,9 @@
   </data>
   <data name="Untitled1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Untitled1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_172799" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_172799.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="oie_transparent" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\oie_transparent.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -205,8 +196,8 @@
   <data name="IMG_1728334" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\IMG_1728334.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="1e9bb8554f534067f2e52bb2b9eaea3b-d63kxbvwedfgn1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\1e9bb8554f534067f2e52bb2b9eaea3b-d63kxbvwedfgn1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="blurry-background-pictures-18nnnn1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\blurry-background-pictures-18nnnn1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="jelly-bean-5-4c8ww" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\jelly-bean-5-4c8ww.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -214,13 +205,10 @@
   <data name="milky-way-wallpaper-1366x768-wallpaper-241" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\milky-way-wallpaper-1366x768-wallpaper-241.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="1e9bb8554f534067f2e52bb2b9eaea3b-d63kxbv1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\1e9bb8554f534067f2e52bb2b9eaea3b-d63kxbv1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ProductiveStoppages(2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ProductiveStoppages(2).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="IMG_172799" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\IMG_172799.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="blurry-background-pictures-18nnnn1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\blurry-background-pictures-18nnnn1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="IMG_172826e" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_172826e.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

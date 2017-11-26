@@ -255,7 +255,7 @@ namespace HMIInterface1
                 DataTable DT1 = new DataTable();
                 DA1.Fill(DT1);
                 con.Close();
-                textBoxFocus.Text = e.X.ToString() + " " + e.Y.ToString();
+            
 
                 ///bargashti
                 if (e.X > 1 && e.X < 127)
@@ -282,12 +282,34 @@ namespace HMIInterface1
                 {
                     FormGetMaterials formGetMaterials = new FormGetMaterials();
                     formGetMaterials.Show();
-
+                    
                 }
                 //Tavaghfat
                 else if (e.X > 232 && e.X < 332)
                 {
+                    if (textBoxOrderView.Text.Trim() == "")
+                    {
 
+                        MessageBox.Show("شماره سفارش وارد نشده است");
+                        textBoxOrderView.Focus();
+
+                    }
+                    else if (textBoxProductView.Text.Trim() == "")
+                    {
+                        MessageBox.Show("کد کالا وارد نشده است");
+                        textBoxProductView.Focus();
+                    }
+                    ///show ProductiveDetails
+                    else
+                    {
+                        ClassStoppages.OrderCode =0;
+                        ClassStoppages.PartID = 0;
+                        ClassStoppages.OrderCode = Convert.ToInt64(textBoxOrderView.Text);
+                        ClassStoppages.PartID = ClassProduct.PartID;
+
+                        FormStoppages formStoppages = new FormStoppages();
+                        formStoppages.Show();
+                    }
                 }
                 //zaye'at
                 else if (e.X > 333 && e.X < 428)

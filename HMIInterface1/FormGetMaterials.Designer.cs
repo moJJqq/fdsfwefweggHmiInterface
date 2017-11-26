@@ -42,9 +42,9 @@
             this.listBoxDestinationOrdeCode = new System.Windows.Forms.ListBox();
             this.textBoDestinationOrderCodeEdit = new System.Windows.Forms.TextBox();
             this.panelManual = new System.Windows.Forms.Panel();
+            this.listBoxPartCode = new System.Windows.Forms.ListBox();
             this.label5 = new System.Windows.Forms.Label();
             this.textBoxPartName = new System.Windows.Forms.TextBox();
-            this.listBoxPartCode = new System.Windows.Forms.ListBox();
             this.textBoxFromOrder = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.textBoxWeight = new System.Windows.Forms.TextBox();
@@ -153,9 +153,9 @@
             // 
             this.pictureBoxNext.BackColor = System.Drawing.Color.Transparent;
             this.pictureBoxNext.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxNext.Image")));
-            this.pictureBoxNext.Location = new System.Drawing.Point(990, 430);
+            this.pictureBoxNext.Location = new System.Drawing.Point(886, 384);
             this.pictureBoxNext.Name = "pictureBoxNext";
-            this.pictureBoxNext.Size = new System.Drawing.Size(74, 90);
+            this.pictureBoxNext.Size = new System.Drawing.Size(178, 136);
             this.pictureBoxNext.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxNext.TabIndex = 90;
             this.pictureBoxNext.TabStop = false;
@@ -201,9 +201,9 @@
             // panelManual
             // 
             this.panelManual.BackColor = System.Drawing.Color.Transparent;
+            this.panelManual.Controls.Add(this.listBoxPartCode);
             this.panelManual.Controls.Add(this.label5);
             this.panelManual.Controls.Add(this.textBoxPartName);
-            this.panelManual.Controls.Add(this.listBoxPartCode);
             this.panelManual.Controls.Add(this.textBoxFromOrder);
             this.panelManual.Controls.Add(this.label1);
             this.panelManual.Controls.Add(this.textBoxWeight);
@@ -213,11 +213,23 @@
             this.panelManual.Controls.Add(this.LableWeight);
             this.panelManual.Controls.Add(this.labelAmount1);
             this.panelManual.Controls.Add(this.textBoxPartCodeView);
-            this.panelManual.Enabled = false;
             this.panelManual.Location = new System.Drawing.Point(642, 120);
             this.panelManual.Name = "panelManual";
             this.panelManual.Size = new System.Drawing.Size(436, 227);
             this.panelManual.TabIndex = 105;
+            // 
+            // listBoxPartCode
+            // 
+            this.listBoxPartCode.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.listBoxPartCode.FormattingEnabled = true;
+            this.listBoxPartCode.ItemHeight = 20;
+            this.listBoxPartCode.Location = new System.Drawing.Point(14, 109);
+            this.listBoxPartCode.Name = "listBoxPartCode";
+            this.listBoxPartCode.Size = new System.Drawing.Size(287, 104);
+            this.listBoxPartCode.TabIndex = 113;
+            this.listBoxPartCode.Visible = false;
+            this.listBoxPartCode.Click += new System.EventHandler(this.listBoxPartCode_Click);
+            this.listBoxPartCode.LostFocus += new System.EventHandler(this.listBoxPartCode_LostFocus);
             // 
             // label5
             // 
@@ -238,25 +250,14 @@
             this.textBoxPartName.ReadOnly = true;
             this.textBoxPartName.Size = new System.Drawing.Size(287, 30);
             this.textBoxPartName.TabIndex = 116;
-            // 
-            // listBoxPartCode
-            // 
-            this.listBoxPartCode.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.listBoxPartCode.FormattingEnabled = true;
-            this.listBoxPartCode.ItemHeight = 20;
-            this.listBoxPartCode.Location = new System.Drawing.Point(14, 109);
-            this.listBoxPartCode.Name = "listBoxPartCode";
-            this.listBoxPartCode.Size = new System.Drawing.Size(287, 104);
-            this.listBoxPartCode.TabIndex = 113;
-            this.listBoxPartCode.Visible = false;
-            this.listBoxPartCode.Click += new System.EventHandler(this.listBoxPartCode_Click);
-            this.listBoxPartCode.LostFocus += new System.EventHandler(this.listBoxPartCode_LostFocus);
+            this.textBoxPartName.TextChanged += new System.EventHandler(this.textBoxPartName_TextChanged);
             // 
             // textBoxFromOrder
             // 
             this.textBoxFromOrder.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.textBoxFromOrder.Location = new System.Drawing.Point(14, 6);
             this.textBoxFromOrder.Name = "textBoxFromOrder";
+            this.textBoxFromOrder.ReadOnly = true;
             this.textBoxFromOrder.Size = new System.Drawing.Size(287, 30);
             this.textBoxFromOrder.TabIndex = 111;
             // 
@@ -276,6 +277,7 @@
             this.textBoxWeight.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.textBoxWeight.Location = new System.Drawing.Point(14, 111);
             this.textBoxWeight.Name = "textBoxWeight";
+            this.textBoxWeight.ReadOnly = true;
             this.textBoxWeight.Size = new System.Drawing.Size(287, 30);
             this.textBoxWeight.TabIndex = 107;
             // 
@@ -284,6 +286,7 @@
             this.textBoxPartCodeEdit.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.textBoxPartCodeEdit.Location = new System.Drawing.Point(14, 42);
             this.textBoxPartCodeEdit.Name = "textBoxPartCodeEdit";
+            this.textBoxPartCodeEdit.ReadOnly = true;
             this.textBoxPartCodeEdit.Size = new System.Drawing.Size(287, 30);
             this.textBoxPartCodeEdit.TabIndex = 108;
             this.textBoxPartCodeEdit.Visible = false;
@@ -295,6 +298,7 @@
             this.textBoxAmount1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.textBoxAmount1.Location = new System.Drawing.Point(14, 147);
             this.textBoxAmount1.Name = "textBoxAmount1";
+            this.textBoxAmount1.ReadOnly = true;
             this.textBoxAmount1.Size = new System.Drawing.Size(287, 30);
             this.textBoxAmount1.TabIndex = 109;
             // 
@@ -366,7 +370,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::HMIInterface1.Properties.Resources._1e9bb8554f534067f2e52bb2b9eaea3b_d63kxbvwedfgn1;
+            this.BackColor = System.Drawing.Color.DarkGray;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1280, 740);
             this.Controls.Add(this.textBoDestinationOrderCodeEdit);

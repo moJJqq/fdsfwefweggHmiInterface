@@ -252,9 +252,9 @@
             // 
             this.pictureBoxNext.BackColor = System.Drawing.Color.Transparent;
             this.pictureBoxNext.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxNext.Image")));
-            this.pictureBoxNext.Location = new System.Drawing.Point(1064, 486);
+            this.pictureBoxNext.Location = new System.Drawing.Point(891, 514);
             this.pictureBoxNext.Name = "pictureBoxNext";
-            this.pictureBoxNext.Size = new System.Drawing.Size(74, 90);
+            this.pictureBoxNext.Size = new System.Drawing.Size(142, 139);
             this.pictureBoxNext.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxNext.TabIndex = 67;
             this.pictureBoxNext.TabStop = false;
@@ -326,7 +326,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::HMIInterface1.Properties.Resources._1e9bb8554f534067f2e52bb2b9eaea3b_d63kxbvwedfgn;
+
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1280, 740);
             this.ControlBox = false;
