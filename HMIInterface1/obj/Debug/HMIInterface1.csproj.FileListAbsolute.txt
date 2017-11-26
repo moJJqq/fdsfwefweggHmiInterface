@@ -127,3 +127,6 @@ C:\Towzin V2\HMIInterface GitHub\HMIInterface1\obj\Debug\HMIInterface1.applicati
 C:\Towzin V2\HMIInterface GitHub\HMIInterface1\obj\Debug\HMIInterface1.exe
 C:\Towzin V2\HMIInterface GitHub\HMIInterface1\obj\Debug\HMIInterface1.pdb
 C:\Towzin V2\HMIInterface GitHub\HMIInterface1\obj\Debug\HMIInterface1.csprojResolveAssemblyReference.cache
+C:\Towzin V2\fdsfwefweggHmiInterface\HMIInterface1\bin\Debug\HMIInterface1.exe.config
+C:\Towzin V2\fdsfwefweggHmiInterface\HMIInterface1\obj\Debug\HMIInterface1.exe
+C:\Towzin V2\fdsfwefweggHmiInterface\HMIInterface1\obj\Debug\HMIInterface1.pdb
